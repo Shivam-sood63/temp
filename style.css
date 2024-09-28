@@ -6,7 +6,6 @@
 html,body{
     width: 100%;
     height: 100%;
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 nav img{
     width: 20%;
@@ -19,9 +18,6 @@ nav{
     width: 100%;
     height: 70px;
     background-color: rgb(249, 252, 252);
-    /* display: flex;
-    justify-content: space-between; */
-    /* background-color: transparent; */
 }
 .space{
   display: flex;
@@ -32,17 +28,14 @@ nav ul{
     display: flex;
     padding:20px 40px;
     align-items: center;
-    /* justify-content: space-between; */
 }
 nav ul li{
     list-style: none;
     padding-left: 50px;
-    /* display:block; */
 }
 nav a{
     text-decoration: none;
     font-size: 1.1vw;
-    /* font-size: 2vw; */
     color: black;
     font-weight: 600;
 }
@@ -68,15 +61,8 @@ nav ul li ul li{
    top: 16px;
 }
 nav i{
-    /* position: relative;
-    left:400px; */
     margin: 10px;
     font-size: 1.5vw;
-
-
-    /* display: flex;
-    align-items: center;
-    justify-content: end; */
 }
 nav i:hover{
     color: #717fe0;
@@ -93,7 +79,6 @@ nav ul li:hover ul li{
 }
 .carousel-inner img {
     width: 100%;
-    /* height: 88vh; */
     height: auto;
     object-fit: cover;
   }
@@ -167,7 +152,6 @@ nav ul li:hover ul li{
     width: 100%;
     height: 60vh;
     display: flex;
-    /* flex-wrap: wrap; */
     padding: 30px 40px;
 }
 .women img{
@@ -210,12 +194,10 @@ nav ul li:hover ul li{
     margin: 0;
     font-weight: 610;
 }
-
 /* --------------------SECTION 3 START PRODUCT OVERVIEW----------- */
 .product{
     width: 100%;
     height: 8vh;
-    /* background-color: aqua; */
 }
 .product h1{
     padding-left: 55px;
@@ -224,7 +206,6 @@ nav ul li:hover ul li{
 .all_products{
     width: 100%;
     height: 10vh;
-    /* background-color: pink; */
 }
 .nav2{
     width: 100%;
@@ -232,12 +213,10 @@ nav ul li:hover ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color:aquamarine; */
 }
 .nav2 ul{
     display: flex;
     align-items: center;   
-    /* flex-wrap: wrap;  */
 }
 .nav2 ul li{
     position: relative;
@@ -252,7 +231,6 @@ nav ul li:hover ul li{
 }
 .two_btns{
     width: 50%;
-    /* background-color: antiquewhite; */
     text-align: end;
     margin-right: 47px;
 }
@@ -265,16 +243,12 @@ nav ul li:hover ul li{
     transform:scale(1.2);
     transition: 0.7s;
     border-radius: 20px;
-
 }
 .navv{
     width: 50%;
     align-items: end;
-    /* background-color: #5060cb; */
 }
 .nav2 button{
-    /* position: relative;
-    left:596px; */
     padding: 7px 40px;
     margin: 10px;
     font-size: 13px;
@@ -283,12 +257,10 @@ nav ul li:hover ul li{
     color: gray;
     transition: 0.7s;
 }
-
 /* -----------------SECTION 5 START -------------------- */
 .esprit{
     width: 100%;
     height: 74vh;
-    /* background-color: antiquewhite; */
     display: flex;
     padding: 10px 40px;
 }
@@ -304,35 +276,28 @@ nav ul li:hover ul li{
 .esp1{
     width: 23vw;
     height: 360px;
-    /* background-color: #717fe0; */
 }
 .esp2{
     width:23vw;
     height: 360px;
-    /* margin-top: 30px; */
-    /* background-color: #717fe0; */
 }
 .esp3{
     width: 23vw;
     height: 360px;
-    /* background-color: #717fe0; */
 }
 .esp4{
     width: 23vw;
     height: 360px;
-    /* background-color: #717fe0; */
 }
 .loadmore{
     width: 100%;
     height: 15vh;
-    /* background-color: #717fe0; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 15px;
 }
 .loadmore button{
-    /* padding: 10px; */
     padding: 10px 50px;
     border-radius: 100px;
     border: none;
@@ -356,7 +321,6 @@ nav ul li:hover ul li{
 .fotr1{
     width: 25vw;
     height: 50vh;
-    /* background-color: rgb(4, 104, 104); */
     margin: 10px 30px;
     padding: 50px 10px;
 }
@@ -376,8 +340,7 @@ nav ul li:hover ul li{
     /* border:0.1px solid white; */
     border-bottom: 1px solid white;
     color: white;
-    font-size: 14px;
-   
+    font-size: 14px; 
 }
 .fotr1 button{
     padding: 10px 50px;
@@ -425,19 +388,16 @@ span{
     padding: 6px;
     color: rgb(175, 173, 173);
 }
-
 /* ---------------------------FEATURES PORTON PAGE NO 3---------------------- */
 .fresh{
     width: 100%;
     height: 93vh;
-    /* background-color: #5060cb; */
     display: flex;
     padding: 60px;
 }
 .fresh1{
     width: 75%;
     height: 72vh;
-    /* background-color: aquamarine; */
     border: 1px solid rgb(213, 211, 211);
     margin: 0 30px;
 }
@@ -446,7 +406,6 @@ span{
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-   
 }
 .quantity h4{
     font-size: 15px;
@@ -462,8 +421,6 @@ span{
     font-size: 16px;
 }
 .increase{
-    /* border: 2px solid black; */
-    /* padding: 5px 10px; */
     margin: 0;
     display: flex;
 }
@@ -492,12 +449,10 @@ span{
     border-radius: 20px;
     transform: scale(1.1);
     transition: 0.7s;
-
 }
 .fresh2{
     width: 35%;
     height: 72vh;
-    /* background-color: bisque; */
     border: 1px solid rgb(213, 211, 211);
     padding: 5px;
 }
@@ -522,13 +477,11 @@ span{
 .fresh23 p{
     padding-left: 10px;
     font-size: 14px;
-    /* font-size: 14px; */
 }
 .fresh24{
     margin-left:75px;
 }
 .fresh24 input{
-    /* padding: 1px; */
     margin: 5px;
     font-size: 13px;
 }
@@ -555,9 +508,7 @@ span{
     border-radius: 20px;
     transform: scale(1.1);
     transition: 0.7s;
-
 }
-
 /* ---------------------------------BLOG PAGE START PAGE NO 4-------------------------- */
 .blog_start img{
     width: 100%;
@@ -566,13 +517,11 @@ span{
 .jan{
     width: 100%;
     height: 90vh;
-    /* background-color: #5060cb; */
     display: flex;
 }
 .jan1{
     width: 70%;
     height: 90vh;
-    /* background-color: rgb(207, 22, 167); */
 }
 .jan1 img{
     width: 100%;
@@ -583,7 +532,6 @@ span{
 .jan2{
     width: 30%;
     height: 90vh;
-    /* background-color: rgb(16, 151, 73); */
     padding: 0px;
 }
 .jan2 h1{
@@ -603,7 +551,6 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #717fe0; */
 }
 .loadd button{
     padding: 10px 50px;
@@ -616,7 +563,6 @@ span{
     transform: scale(1.1);
     transition: 0.7s;
 }
-
 /* -----------------------------------ABOUT PORTION START PAGE NO 5----------------- */
 .about_photo{
     width: 100%;
@@ -625,7 +571,6 @@ span{
 .about_photo img{
     width: 100%;
     height: auto;
-    /* object-fit: contain; */
 }
 .our_story{
     width: 100%;
@@ -635,7 +580,6 @@ span{
 .our_story1{
     width: 60%;
     padding: 70px;
-    /* height: 100vh; */
 }
 .our_story1 h1{
     padding-bottom: 15px;
@@ -646,13 +590,11 @@ span{
 }
 .our_story2{
     width: 40%;
-    /* height: 100vh; */
     padding: 70px;
 }
 .our_story2 img{
     width: 100%;
 }
-
 .our_misson{
     width: 100%;
     height: 100vh;
@@ -661,7 +603,6 @@ span{
 .our_misson1{
     width: 40%;
     padding: 70px;
-    /* height: 100vh; */
 }
 .our_misson2 h1{
     padding-bottom: 15px;
@@ -672,13 +613,11 @@ span{
 }
 .our_misson2{
     width: 60%;
-    /* height: 100vh; */
     padding: 70px;
 }
 .our_misson1 img{
     width: 100%;
 }
-
 /* -----------------------------CONTACT PAGE START PAGE NO 6-------------------------- */
 .contact_sec{
     width: 100%;
@@ -691,7 +630,6 @@ span{
 .contact_form{
     width: 100%;
     height: 100vh;
-    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -699,13 +637,11 @@ span{
 .contact_form_1{
     width: 90%;
     height: 90vh;
-    /* background-color: blue; */
     display: flex;
     border: 0.1px solid rgb(231, 228, 228);
 }
 .form_1{
     width: 50%;
-    /* background-color: #717fe0; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -719,13 +655,11 @@ span{
 .formm{
     width: 60%;
     height: 60vh;
-    /* background-color: lightcoral; */
 }
 .formm input{
     width: 25vw;
     padding: 5px;
     margin-bottom: 20px;
-    /* margin:10px */
 }
 .formm textarea{
     width: 25vw;
@@ -741,16 +675,13 @@ span{
     background-color: black;
     color: white;
     font-weight: 630;
-    /* padding: 5px 133px; */
 }
 .formm button:hover{
-    background-color:#717fe0;
-    
+    background-color:#717fe0;   
 }
 .form_2{
     width: 50%;
     border: 0.1px solid rgb(231, 228, 228);
-    /* background-color: antiquewhite; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -761,10 +692,6 @@ span{
 .address_side{
     width: 60%;
     height: 55vh;
-    /* background-color: rgb(137, 164, 137); */
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
 }
 .address_side h1{
     font-size: 21px;

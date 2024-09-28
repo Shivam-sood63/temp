@@ -27,49 +27,38 @@
     align-items: center;
     justify-content: center;
   }
-
   nav ul {
     display: flex;
     padding: 15px;
     align-items: center;
-    /* flex-direction: column; */
   }
-
   nav ul li {
     list-style: none;
     padding-left: 0px;
-    /* flex-direction: column; */
   }
-
   nav a {
     text-decoration: none;
     font-size: 14px;
     color: black;
     font-weight: 600;
-
-    /* flex-direction: column; */
     display: none;
   }
-
   nav i {
     position: relative;
     left: 25px;
     margin: 10px;
     font-size: 20px;
   }
-
   .carousel-inner img {
     width: 100%;
     height: 50vh;
     object-fit: cover;
   }
-
   #ham {
     font-size: 27px;
     position: relative;
     left: 52px;
   }
-
   #cross {
     display: none;
   }
@@ -80,48 +69,29 @@
     position: absolute;
     right: 60px;
     top: 4px;
-    
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
  }
  .iconss i{
   font-size: 6.2vw;
-  /* display: none; */
  }
  .all_products{
   width: 100%;
   height: 20vh;
-  /* background-color: pink; */
 }
  .nav2{
     width: 100%;
     height: 20vh;
     display: block;
-    /* justify-content: space-between; */
-    /* background-color:aquamarine; */
 }
 .navv{
   width: 100%;
   height: 8vh;
   align-items: center;
-  /* background-color: #5060cb; */
 }
  .two_btns{
     width: 100%;
     height: 10vh;
-    /* background-color: antiquewhite; */
-    /* margin: 10px 100px; */
-    /* text-align: end; */
-    /* margin-right: 0px; */
 }
-/* .two_btns button{
-  position: absolute;
-  top:10px;
-  right: 10px;
-} */
 }
-
   /* ---------------------------section 2 start---------------- */
   @media (max-width: 768px) {
     .carousel-caption h3 {
@@ -139,7 +109,6 @@
       color: black;
       font-size: 10px;
     }
-
     .carousel-caption button {
       width: 80px;
       height: 30px;
@@ -155,36 +124,30 @@
       color: white;
       font-weight: 600;
     }
-
     .carousel-caption .sk {
       font-size: 15px;
       font-weight: 700;
       font-family: PlayfairDisplay-Bold;
     }
-
     .sk2 {
       padding-right: 80px;
       font-size: 10px;
     }
-
     .carousel-item .sk3 {
       font-size: 20px;
       font-weight: 600;
       font-family: PlayfairDisplay-Bold;
       padding-left: 74px;
     }
-
     .carousel-item .sk4 {
       margin-right: 8px;
       font-size: 10px;
     }
-
     .carousel-caption .sk5 {
       position: relative;
       right: 73px;
       font-size: 14px;
     }
-
     .carousel-caption .sk6 {
       position: relative;
       right: 80px;
@@ -192,12 +155,10 @@
       font-family: PlayfairDisplay-Bold;
       font-weight: 600;
     }
-
     .carousel-caption .sk7 {
       margin-right: 0px;
     }
   }
-
   /*-------------------- SECTION 3 START----------WOMEN PORTION  */
   @media (max-width: 768px) {
     .women {
@@ -205,18 +166,12 @@
       height: 110vh;
       display: block;
       padding: 30px;
-      /* margin: 30px; */
-      /* overflow-x: hidden; */
     }
-
     .prt1 {
       width: 100%;
       height: 35vh;
       margin: 0;
-      /* background-color: greenyellow; */
-      /* padding: 0.1px; */
     }
-
     .prt1 h4 {
       position: relative;
       bottom: 150px;
@@ -231,14 +186,11 @@
       margin: 0;
       font-weight: 610;
     }
-
     .prt2 {
       width: 100%;
       height: 35vh;
       margin: 0px;
-      /* padding: 0.1px; */
     }
-
     .prt2 h4{
       position: relative;
       bottom: 150px;
@@ -253,14 +205,11 @@
       margin: 0;
       font-weight: 610;
     }
-
     .prt3 {
       width: 100%;
       height: 35vh;
       margin: 0px;
-      /* padding: 0.1px; */
     }
-
     .prt3 h4{
       position: relative;
       bottom: 150px;
@@ -276,54 +225,39 @@
       font-weight: 610;
     }
   }
-
   /* -----------------SECTIN 5 START -------------------- */
   @media (max-width: 768px) {
     .product {
       width: 100%;
       height: 8vh;
-      /* background-color: aqua; */
     }
-
     .product h1 {
       padding-left: 36px;
       font-weight: 700;
       font-size: 30px;
     }
-
     .all_products {
       width: 100%;
       height: 15vh;
-      /* background-color: pink; */
     }
-
     .nav2 {
       width: 100%;
       height: 15vh;
-      /* background-color:aquamarine; */
     }
-
     .nav2 ul {
       display: flex;
-      /* align-items: center;    */
-      /* flex-wrap: wrap;  */
     }
-
     .nav2 ul li {
       position: relative;
       left: 35px;
       list-style: none;
       margin: 7px;
       font-size: 11.5px;
-      /* padding: 10px; */
-      /* display: flex; */
     }
-
     .nav2 ul li a {
       text-decoration: none;
       color: black;
     }
-
     .nav2 button {
       position: relative;
       right: 150px;
@@ -335,75 +269,56 @@
       background-color: rgb(242, 240, 240);
       color: gray;
     }
-    
   }
-
   /* -------------------section five img portion-------------- */
   @media (max-width:768px) {
     .esprit {
       width: 100%;
       height: 287vh;
-      /* background-color: antiquewhite; */
       display: block;
       padding: 0px 10px;
     }
-
     .esprit img {
       width: 100%;
       height: 410px;
       padding: 0px 10px;
-      /* margin: 10px; */
     }
-
     .esprit p {
       padding: 10px 10px;
       font-size: 16px;
       text-align: center;
     }
-
     .esp1 {
       width: 100%;
       height: 480px;
-      /* background-color: #717fe0; */
     }
-
     .esp2 {
       width: 100%;
       height: 480px;
-      /* background-color: #717fe0; */
     }
-
     .esp3 {
       width: 100%;
       height: 480px;
-      /* background-color: #717fe0; */
     }
-
     .esp4 {
       width: 100%;
       height: 480px;
-      /* background-color: #717fe0; */
     }
-
     .loadmore {
       width: 100%;
       height: 13vh;
-      /* background-color: #717fe0; */
       display: flex;
       align-items: start;
       justify-content: center;
       font-size: 15px;
     }
-
     .loadmore button {
-      /* padding: 10px; */
       padding: 10px 40px;
       border-radius: 100px;
       border: none;
       font-weight: 600;
     }
   }
-
   /* ----------------------------//footer//--------------------- */
   @media (max-width:768px) {
     .fotr {
@@ -413,36 +328,28 @@
       display: block;
       color: white;
     }
-
     .fotr1 {
       width: 100vw;
       height: 34vh;
-      /* background-color: rgb(4, 104, 104); */
       margin: 0px;
-      /* padding: 50px 0px; */
     }
-
     .fotr1 h6 {
       font-weight: 700;
       font-size: 20px;
       padding-bottom: 25px;
     }
-
     .fotr1 p {
       font-size: 4vw;
       line-height: 25px;
       color: rgb(175, 173, 173);
     }
-
     .fotr1 input {
       background-color: black;
       border: none;
-      /* border:0.1px solid white; */
       border-bottom: 1px solid white;
       color: white;
       font-size: 14px;
     }
-
     .fotr1 button {
       padding: 7px 20px;
       margin: 20px 0px;
@@ -453,7 +360,6 @@
       display: block;
       font-size: 14px
     }
-
     .payment {
       width: 100%;
       height: 15vh;
@@ -462,7 +368,6 @@
       align-items: center;
       justify-content: center;
     }
-
     .payment1 {
       width: 30%;
       height: 5vh;
@@ -471,11 +376,9 @@
       align-items: center;
       justify-content: center;
     }
-
     .pay {
       padding: 3px;
     }
-
     .copyright {
       width: 100%;
       height: 10vh;
@@ -484,11 +387,9 @@
       text-align: center;
       font-size: 14px;
     }
-
     span {
       color: rgb(52, 52, 246);
     }
-
     .fotr1 i {
       font-size: 18px;
       padding: 6px;
@@ -501,14 +402,12 @@
   .fresh{
     width: 100%;
     height: 280vh;
-    /* background-color: #5060cb; */
     display: block;
     padding: 0px;
   }
   .fresh1{
     width: 100%;
     height: 208vh;
-    /* background-color: aquamarine; */
     border: 1px solid rgb(213, 211, 211);
     margin:0px;
     padding: 13px;
@@ -517,11 +416,9 @@
     width: 100%;
     padding:30px 10px;
   }
-  
   .fresh2{
     width: 100%;
     height: 200vh;
-    /* background-color: bisque; */
     border: 1px solid rgb(213, 211, 211);
     padding: 5px;
   }
@@ -571,7 +468,6 @@
  
 }
 }
-
 /* -----------------------------------Blog page start page no 4--------------------------- */
 @media (max-width:768px){
 .blog_start img{
@@ -581,13 +477,11 @@
 .jan{
   width: 100%;
   height: 120vh;
-  /* background-color: #5060cb; */
   display: block;
 }
 .jan1{
   width: 100%;
   height: 52vh;
-  /* background-color: rgb(207, 22, 167); */
 }
 .jan1 img{
   width: 100%;
@@ -598,7 +492,6 @@
 .jan2{
   width: 100%;
   height: 90vh;
-  /* background-color: rgb(16, 151, 73); */
   padding: 30px;
 }
 .jan2 input{
@@ -614,7 +507,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #717fe0; */
 }
 .loadd button{
   padding: 9px 35px;
@@ -622,7 +514,6 @@
   border: none;
 }
 }
-
 /* -----------------------------------ABOUT PORTION START PAGE NO 5----------------- */
 @media (max-width:768px){
   .about_photo{
@@ -632,19 +523,15 @@
 .about_photo img{
     width: 100%;
     height: auto;
-    /* object-fit: contain; */
 }
 .our_story{
     width: 100%;
     height: 175vh;
-    /* height: auto; */
     display: block;
-    /* background-color: #717fe0; */
 }
 .our_story1{
     width: 100%;
     padding: 30px;
-    /* height: 100vh; */
 }
 .our_story1 h1{
     padding-bottom: 15px;
@@ -666,7 +553,6 @@
   width: 100%;
   height: 180vh;
   display: block;
-  /* background-color: antiquewhite; */
 }
 .our_misson1{
   width: 100%;
@@ -689,9 +575,7 @@
 .our_misson1 img{
   width: 100%;
 }
-
 }
-
 /* -----------------------------CONTACT PAGE START PAGE NO 6-------------------------- */
 @media (max-width:768px){
   .contact_sec{
@@ -701,40 +585,29 @@
 .contact_form{
   width: 100%;
   height: 110vh;
-  /* background-color: green; */
   display: block;
   align-items: center;
   justify-content: center;
 }
 .contact_form_1{
   width: 100%;
-  /* height: 10vh; */
-  /* background-color: blue; */
   display: block;
-  /* align-items: center;
-  justify-content: center; */
   border: none;
-  /* margin-right: 20px; */
-  /* padding-left: 10px; */
 }
 .form_1{
   width: 100%;
   height: 50vh;
-  /* background-color: #717fe0; */
   display: block;
   align-items: center;
   justify-content: center;
-  /* border: 0.1px solid rgb(231, 228, 228); */
 }
 .formm{
   width: 100%;
   height: 50vh;
-  /* background-color: lightcoral; */
 }
 .form_2{
   width: 100%;
   border:none;
-  /* background-color: antiquewhite; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -750,8 +623,6 @@
   margin-bottom: 20px;
   margin-left: 60px;
   border: 1px solid grey;
-  /* align-items: center; */
-  /* margin:10px */
 }
 .formm textarea{
   width: 70vw;
@@ -771,7 +642,6 @@
   font-weight: 630;
   align-items: center;
   margin-left: 70px;
-  /* padding: 5px 133px; */
 }
 /* .hamburger {
   display: none;

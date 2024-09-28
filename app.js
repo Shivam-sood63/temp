@@ -1,10 +1,3 @@
-// let Ham=document.querySelector("#ham")
-// let Cross=document.querySelector("#cross")
-// Ham.addEventListener("click",function(){
-//     Ham.classList.toggle("#cross");
-// })
-
-
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -16,7 +9,7 @@ function mobileMenu() {
 }
 
 
-// ---------------------------//GSAP LIBRARY START//------------------------------------------
+// ---------------------------//GSAP LIBRARY START//---------------------------------
 gsap.from(".space", {
   y: 30,
   duration: 1,
@@ -39,24 +32,24 @@ gsap.from(".carousel-inner button", {
   duration: 1,
   opacity: 0,
 });
-gsap.from(".prt1", {
-  y:70,
+gsap.from(".prt1 p,h4", {
+  y:40,
   duration: 1,
   opacity: 0,
   scrollTrigger: {
-    trigger: ".ptr3",
+    trigger: ".ptr1",
   },
 });
-gsap.from(".prt2", {
-  y:70,
+gsap.from(".prt2 p", {
+  y:40,
   duration: 1,
   opacity: 0,
   scrollTrigger: {
-    trigger: ".ptr3",
+    trigger: ".ptr1",
   },
 });
-gsap.from(".prt3", {
-  y:70,
+gsap.from(".prt3 p", {
+  y:40,
   duration: 1,
   opacity: 0,
   scrollTrigger: {
@@ -146,3 +139,9 @@ gsap.from(".abot p", {
   duration: 1,
   opacity: 0,
 });
+
+// --------------------EVENT LISTENERS-------------------------
+let Subs=document.querySelector(".fotr1 button")
+Subs.addEventListener("click",function(){
+  alert("subscribed Sucessfully")
+})
